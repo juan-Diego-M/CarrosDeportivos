@@ -14,7 +14,6 @@ import Carros.Abstractas.Ruedas;
  * @author jdieg
  */
 public class GeneraVehiculos {
-    // Atributo para la fábrica concreta
     private FabricaDeVehiculo fabrica;
 
     public GeneraVehiculos(FabricaDeVehiculo fabrica) {
@@ -33,3 +32,4 @@ public class GeneraVehiculos {
         System.out.println("\n");
     }
 }
+
